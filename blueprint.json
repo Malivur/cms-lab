@@ -1,1 +1,58 @@
-
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/edit.php?post_type=page",
+  "preferredVersions": { "php": "8.3", "wp": "latest" },
+  "login": true,
+  "steps": [
+    { "step": "setSiteLanguage", "language": "pl_PL" },
+    {
+      "step": "installTheme",
+      "themeData": { "resource": "wordpress.org/themes", "slug": "twentytwentyfive" },
+      "options": { "activate": true }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": { "resource": "wordpress.org/plugins", "slug": "contact-form-7" }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": { "resource": "wordpress.org/plugins", "slug": "wordpress-seo" }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Palarnia Kawy Ziarno & Pasja",
+        "blogdescription": "Świeżo palona kawa rzemieślnicza prosto do Twojego domu",
+        "permalink_structure": "/%postname%/"
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post delete 1 --force"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='O nas' --post_content='Palarnia Kawy Ziarno & Pasja to miejsce stworzone z miłości do prawdziwej kawy.' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Oferta' --post_content='Sprawdź nasze świeżo palone kawy jednorodne oraz zestawy degustacyjne.' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Dla firm (B2B)' --post_content='Stałe dostawy kawy do biur i gastronomii na fakturę VAT.' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Blog' --post_content='Poradnik parzenia kawy metodami alternatywnymi.' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Kontakt' --post_content='Skontaktuj się z nami przez formularz lub telefonicznie.' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_content='Informacje o przetwarzaniu danych osobowych zgodnie z RODO.' --post_status=publish"
+    }
+  ]
+}
