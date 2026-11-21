@@ -60,7 +60,8 @@ Według danych W3Techs (październik 2026) WordPress napędza **40,2%** wszystki
 | [STOPKA]                                                          |
 | Biblioteka Libre | Kontakt | Polityka prywatności | © 2026        |
 +-------------------------------------------------------------------+
-4. Użycie AI
+
+## 3. Użycie AI [cite: 7] 
 Narzędzie: Gemini (asystent AI).
 
 Zakres użycia: Wygenerowanie struktury dokumentacji README.md, propozycji person czytelników, tłumaczenia oraz dopracowania treści na język polski, a także przygotowanie reguł CSS zgodnych z wytycznymi WCAG 2.2.
