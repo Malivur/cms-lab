@@ -60,6 +60,9 @@ Według danych W3Techs (październik 2026) WordPress napędza **40,2%** wszystki
 | [STOPKA]                                                          |
 | Biblioteka Libre | Kontakt | Polityka prywatności | © 2026        |
 +-------------------------------------------------------------------+
-3. Dostępność WCAG 2.2, style i aspekty prawne (Moduł L3)Tabela kontrastu kolorów (WCAG 2.2 AA – min. 4,5:1)Element interfejsuKolor tekstuKolor tłaWspółczynnik kontrastuStatus WCAG AATekst główny na stronie#1A1A1A#FFFFFF17.
+4. Użycie AI
+Narzędzie: Gemini (asystent AI).
 
-4 : 1Spełnia (AAA)Nagłówki sekcji (H1–H3)#1E1E1E#FFFFFF16.5 : 1Spełnia (AAA)Przycisk główny CTA#FFFFFF#B82E2E5.6 : 1Spełnia (AA)Pasek informacyjny w stopce#FFFFFF#22222215.9 : 1Spełnia (AAA)Wdrożone poprawki dostępności (Dodatkowy CSS + audyt)WCAG 2.4.7 (Focus Visible): Dodano wyraźne obramowanie outline: 3px solid #1a1a1a dla elementów nawigowanych klawiaturą (Tab).   WCAG 2.4.11 (Focus Not Obscured): Ustawiono scroll-padding-top: 6rem, aby elementy z fokusem nie chowały się pod nagłówkiem.   WCAG 2.5.8 (Target Size Minimum): Zapewniono minimalny rozmiar celów dotykowych 24x24 px dla linków nawigacji i przycisków[cite: 11, 13].Płynna typografia: Zastosowano funkcję clamp(1.75rem, 1.2rem + 2.5vw, 3rem) dla nagłówka H1.   Wykaz źródeł i licencji materiałów (RODO / Prawa autorskie)System CMS: WordPress (licencja GPLv2+).   Motyw graficzny i zdjęcia demonstracyjne: Motyw biblioteczny z oficjalnego katalogu WordPress.org (licencja GPLv2+).   Wtyczki: Contact Form 7 (licencja GPLv2+).   Fonty: Fonty systemowe / lokalne z Biblioteki fontów WordPress (licencja OFL – hostowane lokalnie bez zewnętrznych zapytań do serwerów Google, zgodnie z RODO).   
+Zakres użycia: Wygenerowanie struktury dokumentacji README.md, propozycji person czytelników, tłumaczenia oraz dopracowania treści na język polski, a także przygotowanie reguł CSS zgodnych z wytycznymi WCAG 2.2.
+
+Wkład własny i poprawki ręczne: Samodzielny dobór i konfiguracja motywu bibliotecznego w środowisku WordPress Playground, ręczne spolszczenie menu i sekcji strony w edytorze blokowym Gutenberg, utworzenie stron i własnego wzorca bloków, weryfikacja widoku mobilnego (375 px) oraz konfiguracja polityki prywatności.
