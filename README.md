@@ -36,6 +36,12 @@ Struktura obejmuje 6 podstron na maksymalnie 2 poziomach zagłębienia[cite: 4]:
 Według danych W3Techs (październik 2026) WordPress napędza **40,2%** wszystkich stron w internecie i posiada **58,7%** udziału w rynku systemów CMS, wyprzedzając rozwiązania SaaS takie jak Shopify (7,8%) czy Wix (6,1%) oraz system Drupal (0,6%)[cite: 2]. Wybór WordPressa (model *self-hosted*) daje Bibliotece Libre pełną własność bazy danych i treści bez ryzyka uzależnienia od dostawcy (*vendor lock-in*) oraz stałych opłat abonamentowych[cite: 2, 5]. Dodatkowo wbudowany edytor blokowy (Gutenberg) i Full Site Editing pozwalają bibliotekarzom na łatwą publikację aktualności i zarządzanie wzorcami bloków bez znajomości programowania[cite: 2, 7].
 
 ---
+## 3. Użycie AI [cite: 7] 
+Narzędzie: Gemini (asystent AI).
+
+Zakres użycia: Wygenerowanie struktury dokumentacji README.md, propozycji person czytelników, tłumaczenia oraz dopracowania treści na język polski, a także przygotowanie reguł CSS zgodnych z wytycznymi WCAG 2.2.
+
+Wkład własny i poprawki ręczne: Samodzielny dobór i konfiguracja motywu bibliotecznego w środowisku WordPress Playground, ręczne spolszczenie menu i sekcji strony w edytorze blokowym Gutenberg, utworzenie stron i własnego wzorca bloków, weryfikacja widoku mobilnego (375 px) oraz konfiguracja polityki prywatności.
 
 ## 2. Architektura informacji i projekt interfejsu (Moduł L2)[cite: 7]
 
@@ -61,9 +67,4 @@ Według danych W3Techs (październik 2026) WordPress napędza **40,2%** wszystki
 | Biblioteka Libre | Kontakt | Polityka prywatności | © 2026        |
 +-------------------------------------------------------------------+
 
-## 3. Użycie AI [cite: 7] 
-Narzędzie: Gemini (asystent AI).
 
-Zakres użycia: Wygenerowanie struktury dokumentacji README.md, propozycji person czytelników, tłumaczenia oraz dopracowania treści na język polski, a także przygotowanie reguł CSS zgodnych z wytycznymi WCAG 2.2.
-
-Wkład własny i poprawki ręczne: Samodzielny dobór i konfiguracja motywu bibliotecznego w środowisku WordPress Playground, ręczne spolszczenie menu i sekcji strony w edytorze blokowym Gutenberg, utworzenie stron i własnego wzorca bloków, weryfikacja widoku mobilnego (375 px) oraz konfiguracja polityki prywatności.
