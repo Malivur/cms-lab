@@ -1,6 +1,6 @@
 # Mini Projekt 1 (MP1): Biblioteka Libre
 
-Projekt zrealizowany w ramach laboratorium **Systemy zarządzania treścią (CMS)** na Collegium Da Vinci w Poznaniu (rok akademicki 2026/2027, prowadzący: mgr inż. Łukasz Grala)[cite: 2, 7, 11].
+Projekt zrealizowany w ramach laboratorium **Systemy zarządzania treścią (CMS)**
 
 ---
 
